@@ -273,11 +273,7 @@ textarea.input {
     height: 350px;
   }
 
-  .big-circle {
-    bottom: 75%;
-    transform: scale(0.9) translate(-40%, 30%);
-    right: 50%;
-  }
+  
 
   .text {
     margin: 1rem 0 1.5rem 0;
@@ -291,17 +287,17 @@ textarea.input {
 @media (max-width: 330px) {
   .container {
     padding: 1.5rem;
+    margin: 1rem;
+    width: 80%;
   }
-
+.form{
+  width: 80%;
+}
   .contact-info:before {
     display: none;
   }
 
-  .square,
-  .big-circle {
-    display: none;
-  }
-
+  
   form,
   .contact-info {
     padding: 1.7rem 1.6rem;
