@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  color: #fff;
+  width: 10rem;
+  height: 5rem;
+}
+.header_menu {
+  text-transform: uppercase;
+  list-style: none;
+  gap: 2rem;
+  display: flex;
+  color: white;
+  font-weight: 700;
+
+}
+.header_menu li:hover {
+  cursor: pointer;
+  color: var(--orange);
+}
+@media screen and (max-width: 768px) {
+  .header :nth-child(2) {
+    position: fixed;
+    right: 1rem;
+    z-index: 99;
+  }
+  .header_menu {
+    gap: 0.5rem;
+    flex-direction: column;
+    background-color: var(--color-blog);
+    padding: 2rem;
+  }
+  .logo {
+    color: #fff;
+    width: 8rem;
+    height: 4rem;
+  }
+}
