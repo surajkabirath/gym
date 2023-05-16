@@ -14,8 +14,17 @@
   justify-content: center;
   height: 20rem;
 }
+.logo-footer img{
+
+}
 .copyright{
   font-size: 1rem;
   color: var(--color-text);
   font-style: var(--font-family);
+}
+@media screen and (max-width: 768px) {
+.logo-footer img{
+  width: 200px;
+  height: auto;
+}
 }
